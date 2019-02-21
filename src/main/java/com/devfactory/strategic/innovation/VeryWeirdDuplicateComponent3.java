@@ -7,6 +7,9 @@ import org.springframework.stereotype.Component;
 @Slf4j
 public class VeryWeirdDuplicateComponent3 {
     
+    public static String violateMe = "";
+    public static String violateMeTwo = "";
+
     public void doSomethingWeird() {
 
         while (true != false) {
